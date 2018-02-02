@@ -1,0 +1,17 @@
+p{
+
+    color:red;
+}
+h1{ color:blue;}
+h1.main{
+    text-decoration: underline;
+}
+p#first{
+    text-transform: capitalize;
+}
+li li {
+    color: yellow;
+}
+div > p{
+    color: aqua;
+}
