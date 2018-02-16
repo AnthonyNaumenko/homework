@@ -1,18 +1,65 @@
-<!DOCTYPE HTML>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <!-- Тег meta для указания кодировки -->
-    <meta charset="utf-8">
-
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src = "http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="lesson6.js"></script>
+    <style>
+        #panel{
+            height: 300px;
+            background: darkgreen;
+            border: 1px solid green;
+        }
+        .active {
+            background-color: aqua;
+        }
+        .delete{
+            float: left;
+            width: 50px;
+        }
+    </style>
 </head>
-
 <body>
+<div id="panel" class="pane">
+    <img class="delete" src="http://s1.iconbird.com/ico/0612/vistabasesoftwareicons/w128h1281339252558DeleteRed2.png">
+    <div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At doloremque harum maxime recusandae voluptatum!
+            Adipisci dolorem eius inventore quas quisquam quod quos, repellendus tempora! Ad deserunt in odio
+            perferendis totam!
+        </div>
+        <div>Amet atque, aut consequatur cupiditate dolore eum eveniet fugiat hic iusto, libero nemo neque nostrum
+            numquam porro praesentium quisquam quod quos repellat, reprehenderit rerum sed sequi sunt vitae. Inventore,
+            ipsam?
+        </div>
+        <div>Accusamus, aperiam deleniti eveniet ex id ipsum maxime nam sint vel. Beatae dicta eligendi facilis illo
+            impedit in iusto labore maxime minima nam, odit quae quia quos vitae, voluptates? Similique!
+        </div>
+        <div>Atque deleniti distinctio eum eveniet fuga labore pariatur quas sunt. Asperiores assumenda at beatae
+            consectetur cum delectus enim esse est et, facilis fuga impedit laborum maiores placeat praesentium,
+            quibusdam, sit.
+        </div>
+        <div>Adipisci aperiam architecto aut, distinctio eius explicabo iusto laudantium libero, magni minima officiis
+            perferendis quasi reprehenderit sunt ullam ut veniam veritatis? Ab aut corporis dicta explicabo, laborum
+            quasi ut vitae?
+        </div>
+        <div>Ad aliquam amet aperiam aspernatur cum debitis distinctio ea est, explicabo in inventore ipsa laboriosam
+            maiores minus modi, molestias necessitatibus nesciunt nobis nostrum optio quae quaerat quidem similique
+            ullam voluptatibus!
+        </div>
+        <div>Doloremque esse minima repellendus. Blanditiis consequuntur doloremque eum hic iure, laboriosam quis
+            sapiente veritatis. Adipisci cumque eaque est illo nesciunt! Aliquid architecto asperiores ea eos, explicabo
+            facilis recusandae sint vero.
+        </div>
+        <div>Amet consequuntur distinctio dolor ea fugiat minus molestiae nihil optio sunt? Atque distinctio enim ipsam
+            minus molestias porro qui repellat vel vitae voluptates? Exercitationem iure quaerat saepe? Error, ipsa,
+            repudiandae.
+        </div>
+    </div>
+</div>
 
-<h2>Результаты:</h2>
-<p id="results"></p>
-<script src="Lesson5_HW_cikl.js"></script>
-
+<button class="btn-slide">переключить</button>
+<a href = 'ajax.html' class="js-ajax">Text</a>
+<div id="content"></div>
 </body>
-
 </html>
