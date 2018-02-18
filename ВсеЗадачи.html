@@ -5,7 +5,8 @@
     <title>Домашнее задание JS</title>
 </head>
 <body>
-    <script>
+<script>
+    cycle: while (true) {
         var NumberProblem = prompt("Введите номер задачи");
         switch (NumberProblem) {
             case '1':
@@ -13,7 +14,6 @@
                 var d = 2;
                 var result = c + d;
                 alert(result);
-                location.reload();
                 break;
 
             case '2':
@@ -21,7 +21,6 @@
                 var b = 2;
                 var c = 5;
                 alert(a + b + c);
-                location.reload();
                 break;
 
             case '3':
@@ -31,37 +30,37 @@
                 var d = 7;
                 var result = c + d;
                 alert(result);
-                location.reload();
                 break;
 
             case '4':
                 var str = 'Привет Мир!';
                 alert(str);
-                location.reload();
                 break;
 
             case '5':
                 var str1 = 'Привет ';
                 var str2 = 'Мир!';
                 alert(str1 + str2);
-                location.reload();
                 break;
 
             case '6':
                 var name = ' Антон!';
                 alert("Привет" + name);
-                location.reload();
                 break;
 
             case '7':
                 var age = ' 26 ';
                 alert("Мне" + age + "лет!");
-                location.reload();
                 break;
+
+            case '':
+                break cycle;
 
             default:
                 alert('Задачи под таким номером нету в списке');
+
         }
-    </script>
+    }
+</script>
 </body>
 </html>
