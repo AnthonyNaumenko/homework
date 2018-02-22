@@ -30,5 +30,4 @@ $(document).ready(function(){
 	$('li:gt(10)').css('color', 'red');
 //Все <li> меньше 10-той в коричневый цвет 
 	$('li:lt(10):not(.eat)').css('color', 'brown');
-
 });

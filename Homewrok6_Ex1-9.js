@@ -20,5 +20,4 @@ $(document).ready(function(){
 	$('h3 i').css('color', 'red') ;
 //Все <i> непосредственно внутри <h3>
 	$('h3 > i').css('color', 'red') ;
-
 });
