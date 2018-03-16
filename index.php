@@ -1,20 +1,6 @@
 <?php
-require 'TagA.php';
-require 'TagUL.php';
+session_start();
+$_SESSION['test'] = 'Тестовая запись в сессию';
+?>
 
-$google = new TagA;
-$google
- ->setText('в гугл')
- ->setHref('https://google.com')
- ->setTargetBlank();
-
-echo $google->show();
-
-$list = new TagUL();
-$list
-    ->addItem('пЕрвый')
-    ->addItem('Второвй')
-    ->addItem('Nhtnbq')
-    ->addItem('Четверты')
-    ->addItem('пятый');
-echo $list->show();
+<a href="session.php"> go to the next page</a>
