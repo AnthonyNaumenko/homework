@@ -1,7 +1,7 @@
 <?php
 
 try{
-    $pdo = new PDO('mysql:host=localhost;dbname=Anthony;charset=utf8','Anthony','4044059860');
+    $pdo = new PDO('mysql:host=localhost;dbname=Anthony;charset=utf8','Anthony','**********');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     echo 'Подключение успешно.  ';
 } catch(PDOException $exception){
